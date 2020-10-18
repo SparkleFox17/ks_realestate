@@ -1,0 +1,19 @@
+{
+  "name": "ks-realestate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkleFox17/ks_realestate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparkleFox17/ks_realestate/issues"
+  },
+  "homepage": "https://github.com/SparkleFox17/ks_realestate#readme"
+}
