@@ -1,6 +1,9 @@
 <?php
-    include("./config.php");
-    include("./template/header.php");   
-    include("./template/footer.php");  
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+    include("config.php");
+       
+
 ?>
 

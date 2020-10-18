@@ -1,0 +1,20 @@
+#Routing
+ #RewriteBase  /2020/ks-realestate/
+ #RewriteCond %{REQUEST_FILENAME} !-f
+ #RewriteCond %{REQUEST_FILENAME} !-d
+ #RewriteRule ^(.+)$ index.php?uri=$1 [QSA,L]
+
+# HTTPS must be after Routing
+# Redirect to HTTPS from HTTP
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?uri=$1 [QSA,L]
+</IfModule>
+
