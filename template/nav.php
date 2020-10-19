@@ -1,8 +1,8 @@
 <div class="nav">
     <ul>
         <li>Home</li>
-    <li>
-        Services
+        <li>
+            Services
             <ul>
                 <li>Investments</li>
                 <li>Sell</li>

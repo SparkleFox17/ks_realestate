@@ -2,21 +2,13 @@
 .nav {
   background-color: #007bff;
   width: 100%;
-  height: 100px;
-
-  ul {
+  height: 100px; }
+  .nav ul {
     padding: 10px;
-    display: flex;
-  }
+    display: flex; }
+  .nav ul li {
+    justify-content: space-evenly; }
 
-  ul li {
-    justify-content: space-evenly;
-  }
-
-  li {
-  }
-}
 /*nav ends*/
-
 /*contactForm starts*/
 /*contactForm ends*/
