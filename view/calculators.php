@@ -7,13 +7,13 @@ include("./template/pageHead.php");
         
             <?php
                 if (makeSEOURL($page) === "mortgage-calculator") {
-                    echo "ugh math";
+                    echo "content";
                 } else if (makeSEOURL($page) === "cmhc-insurance-calculator") {
-                    echo "math is too hard";
+                    echo "content";
                 } else if (makeSEOURL($page) === "land-transfer-tax-calculator") {
-                    echo "want to get rich meeeooowwwwwnnoowww";
+                    echo "content";
                 } else if (makeSEOURL($page) === "mortgage-affordability-calculator") {
-                    echo "want a house...5 mansions";
+                    echo "content";
                 }
             ?>
         </div>

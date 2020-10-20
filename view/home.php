@@ -4,13 +4,8 @@
     </div>   
     <p><i class="arrow-down"></i></p>
 </div>
-<!--social add later
-  <div class="social">
-            <img src="./imgs/hb.jpg" width="" height="">
-            <i class="far fa-envelope"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-square"></i>
-    </div> social add later-->
+<!--social add later up here in hb silder-->
+
 
   <!--sec-2 about ks starts-->
   <div id="sec-2">
@@ -38,11 +33,19 @@
                 professional service they deserve. <br />
               </p>
             </div>
-          </div>
         </div>
       </div>
     </div>
-    <!--sec-2 about ks ends-->   
+    <div class="social">
+    <i class="far fa-envelope"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-square"></i>
+    </div>
+    <!--sec-2 about ks ends-->  
+
+    <!--social sec starts--> 
+
+    <!--social sec ends--> 
 
 
 

@@ -1,5 +1,6 @@
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 .clear {
   clear: both; }
@@ -39,7 +40,7 @@ a {
     position: absolute;
     bottom: 40px;
     z-index: -1;
-    background-color: white;
+    background-color: #a87156;
     left: 0;
     opacity: 0;
     transition: bottom 0.2s;
@@ -68,9 +69,14 @@ a {
 /*hb starts*/
 .landing {
   width: 100vw;
-  height: 600px;
-  /*social later
-  .social {
+  height: 600px; }
+  .landing .hb-img {
+    display: flex;
+    justify-content: center; }
+  .landing img {
+    width: 100vw;
+    height: 600px; }
+  .landing .social {
     color: white;
     display: flex;
     flex-direction: column;
@@ -78,13 +84,8 @@ a {
     height: 100px;
     position: absolute;
     bottom: 50px;
-    left: 50px;*/ }
-  .landing .hb-img {
-    display: flex;
-    justify-content: center; }
-  .landing img {
-    width: 100vw;
-    height: 600px; }
+    left: 50px;
+    font-size: 30px; }
   .landing .arrow-down {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -129,7 +130,7 @@ h4 {
   font-size: 50px;
   display: flex;
   color: black;
-  background-color: #2db2d3; }
+  background-color: #9e203b; }
 
 /*sec-2 ends*/
 /*fade in img starts*/

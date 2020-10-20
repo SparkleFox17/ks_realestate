@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: black;
 }
 .clear {
   clear: both;
@@ -47,7 +48,7 @@ a {
     position: absolute;
     bottom: 40px;
     z-index: -1;
-    background-color: white;
+    background-color: #a87156;
     left: 0;
     opacity: 0;
     transition: bottom 0.2s;
@@ -93,7 +94,6 @@ a {
     height: 600px;
   }
 
-  /*social later
   .social {
     color: white;
     display: flex;
@@ -102,7 +102,9 @@ a {
     height: 100px;
     position: absolute;
     bottom: 50px;
-    left: 50px;*/
+    left: 50px;
+    font-size: 30px;
+  }
 
   .arrow-down {
     border: solid black;
@@ -154,7 +156,7 @@ h4 {
   font-size: 50px;
   display: flex;
   color: black;
-  background-color: #2db2d3;
+  background-color: #9e203b;
 }
 
 /*sec-2 ends*/
