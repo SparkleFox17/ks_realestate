@@ -19,6 +19,29 @@ $route->add('/home', function() {
     getFoot();   
 });
 
+ 
+$route->add('/services/.+', function($service) {
+    $siteTitle = 'kevinstoddart.com - Services- ' . undoSEOURL($service);
+    $siteDesc = 'Ontario based realestate';
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/services.php");
+    getFoot();   
+});
+
+$route->add('/calculators/.+', function($calculator) {
+    $siteTitle = 'kevinstoddart.com - Calculators- ' . undoSEOURL($calculator);
+    $siteDesc = 'Ontario based realestate';
+    $calculator = undoSEOURL($calculator);
+    $page = $calculator;
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/calculators.php");
+    getFoot();   
+});
+
 $route->add('/gallery', function() {
     $siteTitle = 'kevinstoddart.com - Gallery';
     $siteDesc = 'Ontario based realestate';
@@ -26,6 +49,18 @@ $route->add('/gallery', function() {
     getClasses();
     getHead($siteTitle, $siteDesc);
     include("view/gallery.php");
+    getFoot();   
+});
+
+
+
+$route->add('/contact', function() {
+    $siteTitle = 'kevinstoddart.com - Contact';
+    $siteDesc = 'Ontario based realestate';
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/contact.php");
     getFoot();   
 });
 

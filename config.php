@@ -11,7 +11,7 @@ if(isset($_REQUEST['uri'])) {
 
 $GLOBALS['active'] = $u;
 
-$sitepath = "http://" . $_SERVER['HTTP_HOST'] . "/2020/ks-realestate/";
+$sitepath = "http://" . $_SERVER['HTTP_HOST'] . "/2020/ks-realestate";
 
 define('SITEPATH', $sitepath);
 

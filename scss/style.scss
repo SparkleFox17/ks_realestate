@@ -18,6 +18,47 @@
 }
 /*nav ends*/
 
-/*contactForm starts*/
+/*pageHead starts*/
+.page-head {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
 
-/*contactForm ends*/
+  p {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+  }
+}
+/*pageHead ends*/
+
+/*calculators starts*/
+
+#calculators {
+  .page {
+    margin: 20px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(238, 237, 237);
+  }
+
+  .write-up {
+    padding: 40px;
+    border-right: 1px solid black;
+  }
+
+  .calculator {
+    padding: 40px;
+  }
+}
+
+/*calculators ends*/
