@@ -1,17 +1,17 @@
 <div class="nav">
     <ul>
         <li><a href="<?php echo SITEPATH;?>/home">Home</a></li>
-        <li>
+        <li class="has-sub-nav">
             Services
-            <ul>
+            <ul class="sub-nav">
                 <li><a href="<?php echo SITEPATH;?>/services/invest">Investments</a></li>
                 <li><a href="<?php echo SITEPATH;?>/services/sell">Sell</a></li>
                 <li><a href="<?php echo SITEPATH;?>/services/buy">Buy</a></li>
             </ul>
         </li> 
-        <li>
+        <li class="has-sub-nav">
             Calculators
-            <ul>
+            <ul class="sub-nav">
                 <li><a href="<?php echo SITEPATH;?>/calculators/mortgage-calculator">Mortgage Calculator</a></li>
                 <li><a href="<?php echo SITEPATH;?>/calculators/cmhc-insurance-calculator">CMHC Insurance Calculator</a></li>
                 <li><a href="<?php echo SITEPATH;?>/calculators/land-transfer-tax-calculator">Land Transfer Tax Calculator</a></li>
