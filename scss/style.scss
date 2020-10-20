@@ -45,13 +45,12 @@ a {
     position: absolute;
     bottom: 40px;
     z-index: -1;
-    background-color: red;
+    background-color: white;
     left: 0;
     opacity: 0;
     transition: bottom 0.2s;
   }
 }
-
 /*nav ends*/
 
 /*pageHead starts*/
@@ -75,6 +74,52 @@ a {
 }
 /*pageHead ends*/
 
+/*hb starts*/
+.landing {
+  width: 100vw;
+  height: 600px;
+
+  .hb-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 100vw;
+    height: 600px;
+  }
+
+  /*social later
+  .social {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;*/
+
+  .arrow-down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    bottom: 71px;
+    left: 50%;
+    margin: 0 0 0 -18px;
+    font-size: 36px;
+    z-index: 3;
+    outline: none;
+    position: absolute;
+  }
+}
+/*hb ends*/
+
 /*calculators starts*/
 
 #calculators {
@@ -96,5 +141,4 @@ a {
     padding: 40px;
   }
 }
-
 /*calculators ends*/
