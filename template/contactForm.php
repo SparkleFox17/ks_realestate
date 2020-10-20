@@ -6,14 +6,6 @@
     <input class="mdl-textfield__input" type="text" id="sample1">
     <label class="mdl-textfield__label" for="sample1">First Name</label>
   </div>
-</form>
-
-<form action="#">
-  <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" id="sample1">
-    <label class="mdl-textfield__label" for="sample1">Last Name</label>
-  </div>
-</form>
 <!--First Name ends-->
 
 
@@ -23,12 +15,9 @@
     <label class="mdl-textfield__label" for="sample2">Phone Number</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
-</form>
-
 <!--Phone Number ends-->
 
 <!--Emailstarts MDL-->
-<form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1">
     <label class="mdl-textfield__label" for="sample1">Email</label>
