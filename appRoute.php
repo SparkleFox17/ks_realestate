@@ -9,17 +9,7 @@ $route->add('/', function() {
     include("view/home.php");
     getFoot();   
 });
-$route->add('/home', function() {
-    $siteTitle = 'kevinstoddart.com';
-    $siteDesc = 'Ontario based realestate';
 
-    getClasses();
-    getHead($siteTitle, $siteDesc);
-    include("view/home.php");
-    getFoot();   
-});
-
- 
 $route->add('/services/.+', function($service) {
     $siteTitle = 'kevinstoddart.com - Services- ' . undoSEOURL($service);
     $siteDesc = 'Ontario based realestate';

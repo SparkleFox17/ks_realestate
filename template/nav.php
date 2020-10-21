@@ -1,6 +1,6 @@
 <div class="nav" id="main-nav">
     <ul>
-        <li class="main-item"><a href="<?php echo SITEPATH;?>/home">Home</a></li>
+        <li class="main-item"><a href="<?php echo SITEPATH;?>/">Home</a></li>
         <li class="main-item has-sub-nav">
             Services
             <ul class="sub-nav">
