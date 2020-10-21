@@ -77,13 +77,13 @@ a {
 /*hb starts*/
 .landing {
   width: 100vw;
-  height: 600px; }
+  height: calc(100vh - 80px); }
   .landing .hb-img {
     display: flex;
     justify-content: center; }
   .landing img {
     width: 100vw;
-    height: 600px; }
+    height: calc(100vh - 80px); }
   .landing .social {
     color: white;
     display: flex;
