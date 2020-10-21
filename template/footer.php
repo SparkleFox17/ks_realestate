@@ -1,6 +1,7 @@
   <footer>
+    <div>
     <p class="copyright">&copy 2020 Kevin Stoddart. All Rights Reserved.</p>
-
+    </div>
     <div class="kw-box">
         <div class="kw-inner-text">
             <div>
