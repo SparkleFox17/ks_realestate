@@ -1,7 +1,7 @@
 <div id="contact">
     <div class="page">
         <div class="content">
-            <p>masonry gallery</p>
+            <p>dynamic contact form</p>
         </div>
     </div>
 </div>

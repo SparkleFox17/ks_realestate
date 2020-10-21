@@ -4,7 +4,7 @@
         <li class="main-item has-sub-nav">
             Services
             <ul class="sub-nav">
-                <li><a href="<?php echo SITEPATH;?>/services/invest">Investments</a></li>
+                <li><a href="<?php echo SITEPATH;?>/services/invest">Invest</a></li>
                 <li><a href="<?php echo SITEPATH;?>/services/sell">Sell</a></li>
                 <li><a href="<?php echo SITEPATH;?>/services/buy">Buy</a></li>
             </ul>
