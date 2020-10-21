@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.clear {
+  clear: both;
+}
+.content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-transform: none;
+  margin: 40px 40px;
+  opacity: 1;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+.content p {
+  font-size: 20px;
+  color: black;
+  text-transform: none;
+  margin: 40px 40px;
+  opacity: 1;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+.page {
+  min-height: 60vh;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}

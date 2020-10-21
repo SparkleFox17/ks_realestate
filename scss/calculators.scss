@@ -1,0 +1,22 @@
+/*calculators starts*/
+
+#calculators {
+  .page {
+    margin: 20px auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+  }
+
+  .write-up {
+    padding: 40px;
+    border-right: 1px solid black;
+  }
+
+  .calculator {
+    padding: 40px;
+  }
+}
+/*calculators ends*/
