@@ -52,7 +52,7 @@ a {
     position: absolute;
     bottom: 40px;
     z-index: -1;
-    background-color: #a87156;
+    background-color: #fff;
     left: 0;
     opacity: 0;
     transition: bottom 0.2s;
@@ -68,17 +68,22 @@ a {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   margin-bottom: 20px;
+  -moz-box-shadow: inset 0px 0px 200px #000000;
+  -webkit-box-shadow: inset 0px 0px 200px #000000;
+  box-shadow: inset 0px 0px 200px #000000;
 
   p {
     font-weight: bold;
     font-size: 30px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 3px 6px #000000;
   }
 }
 /*pageHead ends*/
