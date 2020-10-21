@@ -16,6 +16,9 @@
             </div>
         </div>
         <div class="contact-form">
+            <?php
+                include('./template/contactForm.php');
+            ?>
         </div>
     </div>
 </div>

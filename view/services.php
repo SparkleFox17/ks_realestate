@@ -21,6 +21,12 @@ include("./template/pageHead.php");
                 <p>
                 <?php echo $paragraph; ?>    
                 </p> 
+
+                <a href="<?php echo SITEPATH; ?>/contact/<?php echo $service; ?>">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                        Contact
+                    </button>
+                </a>
             </div>
         </div>
     </div>
