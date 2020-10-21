@@ -58,6 +58,16 @@ $route->add('/gallery', function() {
 $route->add('/contact', function() {
     $siteTitle = 'kevinstoddart.com - Contact';
     $siteDesc = 'Ontario based realestate';
+    $form = 'contact';
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/contact.php");
+    getFoot();   
+});
+$route->add('/contact/.+', function($form) {
+    $siteTitle = 'kevinstoddart.com - Contact';
+    $siteDesc = 'Ontario based realestate';
 
     getClasses();
     getHead($siteTitle, $siteDesc);

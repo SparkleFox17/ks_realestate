@@ -279,6 +279,20 @@ h4 {
   padding: 40px; }
 
 /*calculators ends*/
+#contact .page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  #contact .page .write-up {
+    width: 50%; }
+  #contact .page .contact-form {
+    width: 50%; }
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
 /*footer starts*/
 footer {
   width: 100%;
