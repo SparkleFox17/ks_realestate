@@ -16,7 +16,7 @@ footer {
     font-size: 20px;
     font-family: bold;
     color: red;
-    justify-content: center;
+    text-align: center;
     display: flex;
     padding: 110px;
     position: relative; }
