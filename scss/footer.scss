@@ -14,5 +14,23 @@ footer {
     width: 100%;
     text-align: center;
   }
+
+  .kw {
+    font-size: 20px;
+    font-family: bold;
+    color: red;
+    justify-content: center;
+    display: flex;
+    padding: 110px;
+    position: relative;
+  }
+
+  .leg-priv {
+    font-size: 15px;
+    padding: 20px;
+    justify-content: flex-end;
+    position: relative;
+  }
 }
+
 /*footer ends*/

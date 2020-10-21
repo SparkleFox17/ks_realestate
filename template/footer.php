@@ -1,12 +1,16 @@
   <footer>
-    <div>
     <p class="copyright">&copy 2020 Kevin Stoddart. All Rights Reserved.</p>
-    </div>
     <div class="kw-box">
         <div class="kw-inner-text">
             <div>
-                <h4>KW</h4>
-                    <p>content</p>
+                <h4 class="KW"></h4>
+                <h4>KW Neighborhood<br>Realty, Brokerage</h4>
+                    <p>
+                        Keller Williams
+                    </p>
+                    <p>
+                        Each office is independently owned and operated.
+                    </p>
                 </div>
             </div>  
         </div>
@@ -15,7 +19,7 @@
             <p>content add</p>
         </div> 
     </div>
-</div>
+
          
 
     
