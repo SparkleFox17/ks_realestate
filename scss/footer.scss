@@ -14,6 +14,46 @@ footer {
     width: 100%;
     text-align: center;
   }
+
+  .n-items {
+    justify-content: center;
+  }
+
+  ul {
+    position: relative;
+    padding: 20px;
+  }
+
+  li {
+    color: white;
+    padding: 5px;
+    display: inline;
+    margin: 20px;
+  }
+
+  .kw-re {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .row {
+  }
+
+  h2 {
+    color: red;
+    font-size: 40px;
+  }
+
+  .column {
+  }
+
+  p {
+    font-size: 12px;
+    color: #797780;
+    padding: 5px;
+    margin: 20px;
+  }
 }
 
 /*footer ends*/
