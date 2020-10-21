@@ -15,7 +15,7 @@
         </div>
         <div class="fade-in">
           <div class="row">
-            <img src="./imgs/fade-in.jpg" width="" height="" />
+            <img id="about-img" src="./imgs/fade-in.jpg" width="" height="" />
             <div class="aboutcontent">
               <p>
                 *EDIT*<br />
