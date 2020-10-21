@@ -302,11 +302,11 @@ footer {
   footer .copyright {
     color: white;
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center; }
+    text-align: inherit; }
   footer .n-items {
     justify-content: center; }
   footer ul {
@@ -324,10 +324,24 @@ footer {
   footer h2 {
     color: red;
     font-size: 40px; }
+  footer .column {
+    padding: 20px; }
   footer p {
     font-size: 12px;
     color: #797780;
     padding: 5px;
-    margin: 20px; }
+    margin: 20px;
+    margin: 0 20px; }
+
+.lg-kw {
+  font-size: 18px;
+  color: #797780;
+  display: initial; }
+
+.contentkw-p {
+  font-size: 12px;
+  color: #797780;
+  padding: 5px;
+  display: block; }
 
 /*footer ends*/

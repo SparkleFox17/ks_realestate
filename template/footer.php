@@ -15,8 +15,11 @@
                     <h2>KW</h2>
                </div>
                <div class="column">
-                    <p>NEIGHBORHOOD<br>REALTY BROKERAGE</p>
+                    <p>NEIGHBORHOOD<br>REALTY BROKERAGE<br>
+                    <p class="lg-kw">KELLERWILLIAMS.<br>
+                    <div class="contentkw-p">Each office is independently owned and operated</p>
                 </div>
+                
             </div> 
         </div>     
   </footer>  
