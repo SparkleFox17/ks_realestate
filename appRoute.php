@@ -23,6 +23,7 @@ $route->add('/home', function() {
 $route->add('/services/.+', function($service) {
     $siteTitle = 'kevinstoddart.com - Services- ' . undoSEOURL($service);
     $siteDesc = 'Ontario based realestate';
+    $page = undoSEOURL($service);
 
     getClasses();
     getHead($siteTitle, $siteDesc);

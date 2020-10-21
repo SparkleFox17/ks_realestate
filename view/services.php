@@ -8,22 +8,23 @@ else if ($service === "sell") {
 else if ($service === "buy") {
     $paragraph = "Dream Home, Next Home or First Home. Let me help find the perfect fit for you. I combine your wishlist with my wisdom. I am a No Pressure Agent that works around your schedule.";
 }
+
+include("./template/pageHead.php");
 ?>
-<!-- references the paragraphs
-<div>
-    <hi>hi</h1>
-    <p>
-        <?php echo $paragraph ?>    
-    </p>
-</div>
-<-->
-<div class="services-slider">
-<!--slider 3-4 imgs--> 
-<div class="">
-<!--content about buy well --> 
-        <p>Invest</p>
-        <p>Buy</p>
-        <p>Sell</p>
+
+
+<div id="services">
+    <div class="page">
+        <div class="services-slider">
+            <!--slider 3-4 imgs--> 
+            <div class="">
+                <?php echo $paragraph; ?>    
+                <!--content about buy well --> 
+                <p>Invest</p>
+                <p>Buy</p>
+                <p>Sell</p> 
+            </div>
+        </div>
     </div>
 </div>
 
