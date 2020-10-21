@@ -285,5 +285,13 @@ footer {
   height: 340px;
   background-color: #000;
   position: relative; }
+  footer .copyright {
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; }
 
 /*footer ends*/
