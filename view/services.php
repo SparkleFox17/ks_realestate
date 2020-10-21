@@ -17,12 +17,10 @@ include("./template/pageHead.php");
     <div class="page">
         <div class="services-slider">
             <!--slider 3-4 imgs--> 
-            <div class="">
+            <div class="content">
+                <p>
                 <?php echo $paragraph; ?>    
-                <!--content about buy well --> 
-                <p>Invest</p>
-                <p>Buy</p>
-                <p>Sell</p> 
+                </p> 
             </div>
         </div>
     </div>
