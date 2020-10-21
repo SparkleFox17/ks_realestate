@@ -130,7 +130,7 @@ h4 {
   font-size: 50px;
   display: flex;
   color: black;
-  background-color: #9e203b; }
+  background-color: #2db2d3; }
 
 /*sec-2 ends*/
 /*fade in img starts*/
@@ -231,6 +231,13 @@ img {
     opacity: 1; } }
 
 /*about-content ends*/
+/*services starts*/
+.services-slider-container {
+  background-color: rgba(238, 237, 237, 0.473);
+  width: 100vw;
+  height: 400px; }
+
+/*cservices ends*/
 /*calculators starts*/
 #calculators .page {
   margin: 20px auto;

@@ -2,7 +2,7 @@
     <div class="hb-img">
         <img src="./imgs/hb.jpg" width="" height="">
     </div>   
-    <p><i class="arrow-down"></i></p>
+      <p><a href="#sec-2"><i class="arrow-down"></i></a></p>
 </div>
 <!--social add later up here in hb silder-->
 
