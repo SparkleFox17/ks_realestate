@@ -14,105 +14,41 @@ footer {
     bottom: 0;
     width: calc(100% - 80px);
     text-align: right; }
-  footer .footer-header {
-    clear: both;
-    float: none;
-    display: block;
+  footer .footer h2 {
     color: white;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 20px; }
-  footer #pagefooter a {
-    color: white; }
-  footer h4 {
+    padding-top: 30px;
+    font-size: 15px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif; }
+  footer h2 {
     color: white;
     padding-top: 30px;
     font-size: 15px;
     padding: 20px;
     font-family: "Open Sans", sans-serif; }
   footer ul {
-    position: relative;
-    padding: 20px; }
-  footer li {
+    padding: 0 10px;
+    margin: 10px;
+    display: list-item;
+    font-size: 15px; }
+  footer .footer-li {
+    position: inherit;
     color: white;
     padding: 5px;
-    padding: 0 10px;
-    line-height: 2; }
-  footer .li-subnav {
-    position: relative;
-    padding: 12px; }
-  footer .co-info-container {
-    bottom: 0;
-    display: flex;
-    text-align: left; }
-  footer .kw-re {
-    display: flex;
-    justify-content: left;
-    position: absolute;
-    bottom: 0;
-    text-align: left;
-    padding: 0 25px;
-    margin: 10px; }
-  footer h2 {
-    color: red;
-    font-size: 40px;
-    color: red;
-    font-size: 40px;
-    padding: 96px; }
-  footer .column {
-    padding: 20px; }
-  footer p {
-    font-size: 12px;
-    color: #797780;
-    padding: 5px;
-    margin: 20px;
-    margin: 0px; }
-
-.lg-kw {
-  font-size: 18px;
-  color: #797780;
-  display: initial; }
-
-.contentkw-p {
-  font-size: 12px;
-  color: #797780;
-  padding: 5px;
-  display: block; }
-
-.kw-nb {
-  display: flex;
-  justify-content: left;
-  position: relative;
-  bottom: 0;
-  text-align: left;
-  padding: 0 135px;
-  margin: 10px; }
-
-.column {
-  padding: 30px;
-  display: flow-root; }
-
-h2 {
-  color: red;
-  font-size: 40px; }
+    display: initial; }
 
 .footer-social {
   color: white;
   display: inline-grid;
   height: 150px;
-  position: sticky;
+  position: fixed;
   bottom: 50px;
   left: 50px;
   font-size: 20px;
   display: flex;
   padding: 0 150px; }
 
-/*
-.social-h4 {
-  color: white;
-  font-size: 5px;
-  margin: 0 20px;
-  font-family: "Open Sans", sans-serif;
-  position: inherit;
-}
-/*footer ends*/
+.row-social {
+  padding: revert;
+  position: relative;
+  display: grid; }
