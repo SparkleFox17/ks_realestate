@@ -14,6 +14,7 @@ footer {
     bottom: 0;
     width: calc(100% - 80px);
     text-align: right;
+    margin: 0;
   }
   /*c ends*/
 
@@ -34,34 +35,113 @@ footer {
   }
 
   ul {
-    padding: 0 10px;
+    position: relative;
+    padding: 20px;
+
+    li {
+      color: white;
+      padding: 5px;
+      padding: 0 10px;
+      line-height: 2;
+
+      a {
+        color: white;
+      }
+    }
+  }
+
+  .li-subnav {
+    position: relative;
+    padding: 12px;
+  }
+
+  .co-info-container {
+    bottom: 0;
+    display: flex;
+    text-align: left;
+  }
+
+  .kw-re {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    padding: 0 25px;
     margin: 10px;
     display: list-item;
     font-size: 15px;
   }
 
-  .footer-li {
-    position: inherit;
-    color: white;
+  h2 {
+    color: red;
+    font-size: 40px;
+    padding: 96px;
+  }
+
+  .column {
+    padding: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    color: #797780;
     padding: 5px;
+    margin: 20px;
+  }
+
+  .lg-kw {
+    font-size: 18px;
+    color: #797780;
     display: initial;
   }
+
+  .contentkw-p {
+    font-size: 12px;
+    color: #797780;
+    padding: 5px;
+    display: block;
+  }
+
+  .kw-nb {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    padding: 0 135px;
+    margin: 10px;
+  }
+
+  .column {
+    padding: 30px;
+    display: flow-root;
+  }
+
+  h2 {
+    color: red;
+    font-size: 40px;
+  }
+
+  .footer-social {
+    color: white;
+    display: inline-grid;
+    position: sticky;
+    bottom: 50px;
+    left: 50px;
+    font-size: 20px;
+    display: flex;
+    padding: 0 150px;
+  }
+
+  /*
+  .social-h4 {
+    color: white;
+    font-size: 5px;
+    margin: 0 20px;
+    font-family: "Open Sans", sans-serif;
+    position: inherit;
+  }*/
 }
 
-.footer-social {
-  color: white;
-  display: inline-grid;
-  height: 150px;
-  position: fixed;
-  bottom: 50px;
-  left: 50px;
-  font-size: 20px;
-  display: flex;
-  padding: 0 150px;
-}
-
-.row-social {
-  padding: revert;
-  position: relative;
-  display: grid;
-}
+/*footer ends*/
