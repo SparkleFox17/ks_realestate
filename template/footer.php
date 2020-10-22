@@ -24,7 +24,7 @@
         </div> 
         <div class="footer-social">
             <div class="footer-header">
-                Social Media
+              
             </div>
             <div class="row-social">
                 <a href="mailto:kevin@kevinstoddart.com" target="_new"><i class="far fa-envelope"></i></a>
@@ -35,16 +35,16 @@
         <div class="co-info-container">
             <div class="kw-re">
                 <div class="row">
-                    <h2>KW</h2>
+                    <h2></h2>
                 </div>
                 <div class="column">
                     <p>
-                        NEIGHBORHOOD<br>REALTY, BROKERAGE<br></p>
+                        <br><br></p>
                     <p class="lg-kw">
-                        KELLERWILLIAMS.<br>
+                      <br>
                     </p>
                     <div class="contentkw-p">
-                        *Independently owned and operated
+                        
                     </div>
                 <div>
             </div>                
