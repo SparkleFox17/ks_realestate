@@ -19,7 +19,7 @@
       </div>
       <div class="fade-in">
         <div class="row">
-          <img id="about-img" src="./imgs/fade-in.jpg" width="" height="" />
+          <img id="about-img" src="./imgs/Kevin-Photo.jpg" width="" height="" />
           <div class="aboutcontent">
             <p>
               *EDIT*<br />
