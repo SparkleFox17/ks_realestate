@@ -1,13 +1,17 @@
 html {
   scroll-behavior: smooth;
+  font-family: 'Cabin', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: black;
 }
 .clear {
   clear: both;
+}
+
+.main-container {
+  padding-top: 60px;
 }
 .content h1 {
   font-size: 30px;
@@ -19,7 +23,7 @@ a {
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 .content p {
   font-size: 20px;
@@ -30,10 +34,18 @@ a {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .page {
   min-height: 60vh;
+}
+.page {
+  margin: 20px auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background-color: rgb(247, 247, 247);
 }
 .row {
   display: flex;

@@ -50,13 +50,8 @@
             </div>                
         </div> 
     </footer>  
+</div>  <!-- closes main container -->            
                 
-                
-
-                   
-
-            
-
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="<?php echo SITEPATH;?>/js/main.js"></script>
 </body>

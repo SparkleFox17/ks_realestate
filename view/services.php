@@ -9,25 +9,24 @@ else if ($service === "buy") {
     $paragraph = "Dream Home, Next Home or First Home. Let me help find the perfect fit for you. I combine your wishlist with my wisdom. I am a No Pressure Agent that works around your schedule.";
 }
 
-include("./template/pageHead.php");
+//include("./template/pageHead.php");
 ?>
 
 
 <div id="services">
     <div class="page">
-        <div class="services-slider">
-            <!--slider 3-4 imgs--> 
-            <div class="content">
-                <p>
-                <?php echo $paragraph; ?>    
-                </p> 
+        <!--slider 3-4 imgs--> 
+        <div class="content">
+            <h1><?php echo undoSEOURL($service); ?></h1>
+            <p>
+            <?php echo $paragraph; ?>    
+            </p> 
 
-                <a href="<?php echo SITEPATH; ?>/contact/<?php echo $service; ?>">
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                        Contact
-                    </button>
-                </a>
-            </div>
+            <!--<a href="<?php echo SITEPATH; ?>/contact/<?php echo $service; ?>">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    Contact
+                </button>
+            </a>-->
         </div>
     </div>
 </div>

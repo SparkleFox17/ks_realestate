@@ -10,7 +10,19 @@ $route->add('/', function() {
     getFoot();   
 });
 
-$route->add('/services/.+', function($service) {
+$route->add('/about', function() {
+    $siteTitle = 'kevinstoddart.com';
+    $siteDesc = 'Ontario based realestate';
+    $page = 'About';
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/default.php");
+    getFoot();   
+});
+
+/* BUY */
+$route->add('/buy/.+', function($service) {
     $siteTitle = 'kevinstoddart.com - Services- ' . undoSEOURL($service);
     $siteDesc = 'Ontario based realestate';
     $page = undoSEOURL($service);
@@ -20,6 +32,34 @@ $route->add('/services/.+', function($service) {
     include("view/services.php");
     getFoot();   
 });
+/* BUY ENDS */
+
+/* SELL */
+$route->add('/sell/.+', function($service) {
+    $siteTitle = 'kevinstoddart.com - ' . undoSEOURL($service);
+    $siteDesc = 'Ontario based realestate';
+    $page = undoSEOURL($service);
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/services.php");
+    getFoot();   
+});
+/* SELL ENDS */
+
+/* SELL */
+$route->add('/invest/.+', function($service) {
+    $siteTitle = 'kevinstoddart.com - ' . undoSEOURL($service);
+    $siteDesc = 'Ontario based realestate';
+    $page = undoSEOURL($service);
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/services.php");
+    getFoot();   
+});
+/* SELL ENDS */
+
 
 $route->add('/calculators/.+', function($calculator) {
     $siteTitle = 'kevinstoddart.com - Calculators- ' . undoSEOURL($calculator);
@@ -33,22 +73,43 @@ $route->add('/calculators/.+', function($calculator) {
     getFoot();   
 });
 
-$route->add('/gallery', function() {
-    $siteTitle = 'kevinstoddart.com - Gallery';
+$route->add('/listings', function() {
+    $siteTitle = 'kevinstoddart.com - Listings';
     $siteDesc = 'Ontario based realestate';
+    $page = 'Listings';
 
     getClasses();
     getHead($siteTitle, $siteDesc);
-    include("view/gallery.php");
+    include("view/default.php");
     getFoot();   
 });
 
+$route->add('/top-neighbourhoods', function() {
+    $siteTitle = 'kevinstoddart.com - Top Neighbourhoods';
+    $siteDesc = 'Ontario based realestate';
+    $page = 'Top Neighbourhoods';
 
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/default.php");
+    getFoot();   
+});
+
+$route->add('/market-news', function() {
+    $siteTitle = 'kevinstoddart.com - Market News';
+    $siteDesc = 'Ontario based realestate';
+    $page = 'Market News';
+
+    getClasses();
+    getHead($siteTitle, $siteDesc);
+    include("view/default.php");
+    getFoot();   
+});
 
 $route->add('/contact', function() {
     $siteTitle = 'kevinstoddart.com - Contact';
     $siteDesc = 'Ontario based realestate';
-    $form = 'contact';
+    $page = 'Contact';
 
     getClasses();
     getHead($siteTitle, $siteDesc);
@@ -58,6 +119,7 @@ $route->add('/contact', function() {
 $route->add('/contact/.+', function($form) {
     $siteTitle = 'kevinstoddart.com - Contact';
     $siteDesc = 'Ontario based realestate';
+    $page = 'Contact';
 
     getClasses();
     getHead($siteTitle, $siteDesc);

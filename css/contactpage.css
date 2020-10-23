@@ -1,8 +1,0 @@
-#contact .page {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  #contact .page .write-up {
-    width: 50%; }
-  #contact .page .contact-form {
-    width: 50%; }
