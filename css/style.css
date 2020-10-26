@@ -440,7 +440,7 @@ footer {
     left: 50px;
     font-size: 20px;
     display: flex;
-    padding: 0 150px;
+    padding: 0 10px;
     position: absolute; }
   footer .nav {
     width: 100%;
@@ -532,6 +532,6 @@ footer {
   footer img {
     width: 10vw;
     height: 100px;
-    padding: 0 170px; }
+    padding: 0 10px; }
 
 /*footer ends*/
