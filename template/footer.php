@@ -56,11 +56,10 @@
                 <a href="https://facebook.com/kevinstoddart" target="_new"><i class="fab fa-facebook-square"></i></a>
             </div>  
         </div>       
-        <div class="co-info-container">
+        <!--<div class="co-info-container">
             <div class="kw-re">
                 <div class="row">
                     <h2>KW</h2>
-
                 </div>
                 <div class="column">
                     <p>
@@ -73,7 +72,10 @@
                     </div>
                 <div>
             </div>                
-        </div> 
+        </div> -->
+        <div class="kw-img">
+            <img src="./imgs/kwnr-Logo.jpg">
+        </div>
     </footer>  
 </div>  <!-- closes main container -->            
                 
