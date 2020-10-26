@@ -74,7 +74,7 @@
             </div>                
         </div> -->
         <div class="kw-img">
-            <img src="./imgs/kwnr-Logo.jpg">
+            <img src="<?php echo SITEPATH;?>/imgs/kwnr-Logo.jpg">
         </div>
     </footer>  
 </div>  <!-- closes main container -->            
