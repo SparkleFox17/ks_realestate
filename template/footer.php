@@ -1,6 +1,6 @@
     <footer>
         <p class="copyright">&copy 2020 Kevin Stoddart. All Rights Reserved.</p>
-        <div class="n-items">
+        <!--<div class="n-items">
             <div class="footer-header">
                 Website Links
                 <div class="nav">
@@ -45,7 +45,7 @@
                     </ul>
                 </div>
             </div>
-        </div> 
+        </div> -->
         <div class="footer-social">
             <div class="footer-header">
               
