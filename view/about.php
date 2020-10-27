@@ -1,14 +1,10 @@
-<div id="sec-2">
-    <div class="about-ks">
-      <div class="about">
-        <h4>About Kevin Stoddart</h4>
-      </div>
-      <div class="fade-in">
-        <div class="row">
+<div id="about">
+    <div class="page">
+      <div class="content"> 
           <img id="about-img" src="./imgs/Kevin-Photo.jpg" width="" height="" />
-          <div class="aboutcontent">
+          <div>
+          <h4>About Kevin Stoddart</h4>
             <p>
-              *EDIT*<br />
               Born and raised in Etobicoke, I am now investing and raising my
               own family here.<br />
               I can`t imagine a better place to live and work.<br />
@@ -22,7 +18,7 @@
               hours needed to provide my clients with the personal and
               professional service they deserve. <br />
             </p>
+            </div>
           </div> 
-      </div>
+        </div>
     </div>
-  </div>
