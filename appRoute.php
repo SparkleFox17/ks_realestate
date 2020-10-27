@@ -21,7 +21,7 @@ $route->add('/about', function() {
     getFoot();   
 });
 
-/* BUY */
+/* BUY STARTS */
 $route->add('/buy/.+', function($service) {
     $siteTitle = 'kevinstoddart.com - Services- ' . undoSEOURL($service);
     $siteDesc = 'Ontario based realestate';
@@ -29,7 +29,7 @@ $route->add('/buy/.+', function($service) {
 
     getClasses();
     getHead($siteTitle, $siteDesc);
-    include("view/services.php");
+    include("view/buy.php");
     getFoot();   
 });
 /* BUY ENDS */
@@ -42,12 +42,12 @@ $route->add('/sell/.+', function($service) {
 
     getClasses();
     getHead($siteTitle, $siteDesc);
-    include("view/services.php");
+    include("view/sell.php");
     getFoot();   
 });
 /* SELL ENDS */
 
-/* SELL */
+/* INVEST STARTS */
 $route->add('/invest/.+', function($service) {
     $siteTitle = 'kevinstoddart.com - ' . undoSEOURL($service);
     $siteDesc = 'Ontario based realestate';
@@ -55,10 +55,10 @@ $route->add('/invest/.+', function($service) {
 
     getClasses();
     getHead($siteTitle, $siteDesc);
-    include("view/services.php");
+    include("view/invest.php");
     getFoot();   
 });
-/* SELL ENDS */
+/* INVEST ENDS */
 
 
 $route->add('/calculators/.+', function($calculator) {
