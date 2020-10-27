@@ -1,18 +1,4 @@
-<div class="landing">
-    <div class="hb-img"></div>   
-    <p><a href="#sec-2"><i class="arrow-down"></i></a></p>
-
-    <div class="social">
-      <i class="far fa-envelope"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-facebook-square"></i>
-    </div>
-</div>
-<!--social add later up here in hb silder-->
-
-
-  <!--sec-2 about ks starts-->
-  <!--<div id="sec-2">
+<div id="sec-2">
     <div class="about-ks">
       <div class="about">
         <h4>About Kevin Stoddart</h4>
@@ -36,15 +22,7 @@
               hours needed to provide my clients with the personal and
               professional service they deserve. <br />
             </p>
-          </div>
+          </div> 
       </div>
     </div>
-  </div>-->
-    <!--sec-2 about ks ends-->  
-
-    <!--social sec starts--> 
-
-    <!--social sec ends--> 
-
-
-
+  </div>

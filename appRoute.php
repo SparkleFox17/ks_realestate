@@ -17,7 +17,7 @@ $route->add('/about', function() {
 
     getClasses();
     getHead($siteTitle, $siteDesc);
-    include("view/default.php");
+    include("view/about.php");
     getFoot();   
 });
 
