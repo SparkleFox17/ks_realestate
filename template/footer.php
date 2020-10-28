@@ -52,7 +52,6 @@
             </div>
             <div class="row-social">
                 <a href="mailto:kevin@kevinstoddart.com" target="_new"><i class="far fa-envelope"></i></a>
-                <a href="https://instagram.com/kevinstoddart" target="_new"><i class="fab fa-instagram"></i></a>
                 <a href="https://facebook.com/kevinstoddart" target="_new"><i class="fab fa-facebook-square"></i></a>
             </div>  
         </div>       

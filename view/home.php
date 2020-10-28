@@ -4,7 +4,6 @@
 
     <div class="social">
       <i class="far fa-envelope"></i>
-      <i class="fab fa-instagram"></i>
       <i class="fab fa-facebook-square"></i>
     </div>
 </div>
